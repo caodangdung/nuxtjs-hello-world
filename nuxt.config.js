@@ -1,6 +1,8 @@
-export default {
-  server: {
-    host: '0.0.0.0'
-  }
+export default {  
+  ssr: false,
+  target: 'static',
+  buildModules: [
+    '@nuxt/image',
+  ]
 }
 
